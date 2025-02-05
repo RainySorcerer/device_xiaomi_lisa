@@ -54,6 +54,9 @@ TARGET_BOOTLOADER_BOARD_NAME := lisa
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.xiaomi_lisa
+
 # Display
 TARGET_SCREEN_DENSITY ?= 440
 
