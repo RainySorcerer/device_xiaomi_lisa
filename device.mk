@@ -357,7 +357,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
-$(call soong_config_set,qtipower,mode_ext_lib,//$(DEVICE_PATH):libpowermode-ext-xiaomi)
+$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(DEVICE_PATH):libperfmgr-ext-xiaomi)
 
 # QTI
 PRODUCT_COPY_FILES += \
