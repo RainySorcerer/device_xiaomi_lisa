@@ -45,6 +45,9 @@ BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
+# Imherit MiuiCamera
+-include vendor/xiaomi/miuicamera-lisa/BoardConfigInclude.mk
+
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := lisa
 
