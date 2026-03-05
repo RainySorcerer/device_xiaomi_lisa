@@ -15,6 +15,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi 11 Lite 5G NE
 PRODUCT_NAME := voltage_lisa
 
+# Dolby Flags
+TARGET_INCLUDES_DolbyVision := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
