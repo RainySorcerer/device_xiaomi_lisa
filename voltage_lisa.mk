@@ -19,6 +19,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Flags
 TARGET_INCLUDES_OEM_App := true
+TARGET_INCLUDES_DolbyVision := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="lisa_global-user 14 UKQ1.240624.001 OS2.0.8.0.UKOMIXM release-keys" \
