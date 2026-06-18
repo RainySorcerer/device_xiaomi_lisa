@@ -70,13 +70,8 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
-    $(DEVICE_PATH)/hidl/manifest_lahaina.xml \
-    $(DEVICE_PATH)/hidl/manifest_xiaomi.xml
-
-ifeq ($(TARGET_HAS_UDFPS),true)
-DEVICE_MANIFEST_FILE += \
-    $(DEVICE_PATH)/hidl/manifest_udfps.xml
-endif
+    $(DEVICE_PATH)/configs/hidl/manifest_lahaina.xml \
+    $(DEVICE_PATH)/configs/hidl/manifest_xiaomi.xml
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -157,11 +152,11 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 TARGET_BOARD_PLATFORM := lahaina
 
 # Properties
-TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true

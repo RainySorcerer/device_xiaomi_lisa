@@ -73,10 +73,4 @@
     
     <!-- Do not translate. Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Mi 11 LE</string>
-    
-    <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi 11 Lite 5G NE</string>
-    
-    <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi 11 Lite NE</string>
 </resources>
