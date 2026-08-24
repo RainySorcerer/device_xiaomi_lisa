@@ -6,14 +6,14 @@
 # Inherit from lisa device
 $(call inherit-product, device/xiaomi/lisa/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 2109119DG
-PRODUCT_NAME := lineage_lisa
+PRODUCT_MODEL := Mi 11 Lite 5G NE
+PRODUCT_NAME := voltage_lisa
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
