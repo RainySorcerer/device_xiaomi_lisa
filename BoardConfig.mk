@@ -71,8 +71,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
-    $(DEVICE_PATH)/configs/hidl/manifest_lahaina.xml \
-    $(DEVICE_PATH)/configs/hidl/manifest_xiaomi.xml
+    $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
