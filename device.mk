@@ -171,10 +171,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
     
 # Dolby
-$(call inherit-product, vendor/dolby/dolby-setup.mk)
-
-# Dolby Vision
-TARGET_SUPPORTS_DOVI := true    
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
