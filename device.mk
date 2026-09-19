@@ -324,7 +324,6 @@ $(call inherit-product, vendor/xiaomi/miuicamera-lisa/device.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureOverlayLisa \
     CarrierConfigOverlayLisa \
     FrameworkOverlayLisa \
     LineageSDKOverlayLisa \
